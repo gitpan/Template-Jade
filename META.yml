@@ -34,4 +34,4 @@ resources:
   homepage: http://jade-lang.com/
   license: http://www.perlfoundation.org/artistic_license_2_0
   repository: 'git://github.com/Evan Carroll/Template-Jade.git'
-version: 0.02
+version: 0.03
