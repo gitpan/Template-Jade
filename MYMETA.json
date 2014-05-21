@@ -1,10 +1,11 @@
 {
    "abstract" : "A port of Jade to Perl",
    "author" : [
-      "Evan Carroll, C<< <me at evancarroll.com> >>, Evan Carroll <me@evancarroll.com>"
+      "Evan Carroll, C<< <me at evancarroll.com> >>",
+      "Evan Carroll <me@evancarroll.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.141170",
+   "generated_by" : "Module::Install version 1.08, CPAN::Meta::Converter version 2.141170",
    "license" : [
       "artistic_2"
    ],
@@ -15,8 +16,8 @@
    "name" : "Template-Jade",
    "no_index" : {
       "directory" : [
-         "t",
-         "inc"
+         "inc",
+         "t"
       ]
    },
    "prereqs" : {
@@ -29,11 +30,13 @@
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "0"
+            "ExtUtils::MakeMaker" : "6.59",
+            "Module::Install" : "0"
          }
       },
       "runtime" : {
          "requires" : {
+            "DateTime" : "0",
             "HTML::Escape" : "0",
             "Moose" : "0",
             "Sub::Exporter" : "0",
@@ -43,5 +46,18 @@
       }
    },
    "release_status" : "testing",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/EvanCarroll/perl-template-jade/issues"
+      },
+      "homepage" : "http://jade-lang.com/",
+      "license" : [
+         "http://www.perlfoundation.org/artistic_license_2_0"
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/Evan Carroll/Template-Jade.git"
+      }
+   },
    "version" : "0.01_02"
 }
